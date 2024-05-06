@@ -1,0 +1,51 @@
+        .text{
+            animation-name: slide;
+            animation-duration: 3s;
+            font-family: Arial,Sans-Serif,"Segoe UI";
+        }
+        #reloadbutton{
+            animation-name: slide;
+            animation-duration: 4s;
+            width: 105px;
+            height: 40px;
+            transition: all 5s ease;
+            border-radius: 10px;
+            border: none;
+            background-color: lightblue;
+        }
+        #button:hover{
+            background-color: blue;
+            border: 3px solid black;
+            cursor: pointer;
+        }
+        @keyframes slide {
+            from{transform: translateX(1250%)}
+        }
+        #generateButton{
+            animation-name: slide;
+            animation-duration: 4s;
+            width: 105px;
+            height: 40px;
+            transition: all 5s ease;
+            border-radius: 10px;
+            border: none;
+            background-color: lightblue;
+        }
+        #generateButton:hover{
+            background-color: blue;
+            border: 3px solid black;
+            cursor: pointer;
+        }
+        .checkbox{
+            animation-name: slide;
+            animation-duration: 2s;
+        }
+        #passwordLengthInput{
+            animation-name: slide;
+            animation-duration: 2s;
+            background-color: grey;
+            border: none;
+            border-radius: 10px;
+            width: 105px;
+            height: 25px;
+          }
