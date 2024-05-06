@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Random Password Generator</title>
+    
+     <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <p id="text" class="text"></p>
+    <label for="passwordLengthInput" class="text">Length: </label><input type="number" id="passwordLengthInput" value="12" min="1" max="100">
+    <br><br>
+    <label for="lowercaseCheckbox" class="text">Lowercase: </label><input type="checkbox" id="lowercaseCheckbox" class="checkbox" checked><br>
+    <label for="uppercaseCheckbox" class="text">Uppercase: </label><input type="checkbox" id="uppercaseCheckbox" class="checkbox" checked><br>
+    <label for="numbersCheckbox" class="text">Numbers: </label><input type="checkbox" id="numbersCheckbox" class="checkbox" checked><br>
+    <label for="symbolsCheckbox" class="text">Symbols: </label><input type="checkbox" id="symbolsCheckbox" class="checkbox" checked><br>
+    <br><br>
+    <button type="submit" id="generateButton">Generate Password</button>
+    <button type="submit" id="reloadButton">Reload</button>
+    
+    <script type="text/javascript" charset="utf-8" href="script.js">
+    </script>
+</body>
+</html>
